@@ -16,8 +16,12 @@
             </div>
             <div class="form-title">
                 <h1>For Individuals</h1>
-                <p>
+                <p class="sub-title-mobile">
                     Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+                </p>
+                <p  class="sub-title-desktop">
+                    Start benefiting from the wellness experience. For companies looking on increasing productivity,
+                     and improving organization wellness.
                 </p>
             </div>
         </div>
@@ -26,7 +30,7 @@
     <main>
         <div class="form-container">
             <form action="index.html" method="post">
-                <fieldset>
+                <fieldset class="name">
                     <p>
                         <label for="name">First Name</label>
                         <input type="text" name="name" id="name" required>
@@ -36,7 +40,7 @@
                         <input type="text" name="name" id="name" required>
                 </fieldset>
                 
-                <fieldset>
+                <fieldset class="gender">
                     <p>
                         <label for="gender">Gender</label>
                         <select name="gender" id="gender">
@@ -49,14 +53,15 @@
                     <p>
                         <label for="dob">Date of Birth</label>
                         <input type="date" name="dob" id="dob" placeholder="Select here" required>
+                    </p>
                 </fieldset>
 
-                <fieldset>
-                    <p>
+                <fieldset class="weight-height">
+                    <p class="weight">
                         <label for="weight">Weight (KG)</label>
                         <input type="number" name="weight" id="weight" placeholder="Enter Weight" required>
                     </p>
-                    <p>
+                    <p class="height">
                         <label for="height">Height (CM)</label>
                         <input type="number" name="height" id="height" placeholder="Enter height" required>
                 </fieldset>
